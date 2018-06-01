@@ -1,9 +1,12 @@
 /******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+
+a2 + b2 = c2
+For example, 32 + 42 = 9 + 16 = 25 = 52.
+
+There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+Find the product abc.
 
 *******************************************************************************/
 #include <stdio.h>
@@ -52,7 +55,7 @@ int findPythagoreanTripletofSum(int dSum)
 
 int main()
 {
-    int desiredSum = 760;
+    int desiredSum = 1000;
     int retValue = findPythagoreanTripletofSum(desiredSum);
     
     cout<<"The product of the pythagorean triplet where a+b+c ="
