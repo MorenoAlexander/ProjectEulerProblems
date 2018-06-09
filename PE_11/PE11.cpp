@@ -73,10 +73,6 @@ class Grid {
                     
                 }
             }
-            //Run assuming that there will be 1 or more numbers  out
-            else{
-                
-            }
         }
         
         
