@@ -5,7 +5,15 @@
 using namespace std;
 
 
+/*
+Prime number Sieve based on the Sieve of Eratosthenes.
 
+Generates all prime numbers up to specified limit argument.
+
+Returns the sum of those numbers.
+
+
+*/
 long long int Esieve_sum(int limit) {
 	int *arr = new int[limit];
 	for (int i = 2; i < limit; i++)
