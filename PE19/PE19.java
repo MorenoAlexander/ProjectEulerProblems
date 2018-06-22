@@ -87,7 +87,7 @@ public class PE19
 		            }
 		            
 		            System.out.println(calcforMonth(m,dayCount));
-		            if(days[currentDay]=="Sunday" && calcforMonth(m,dayCount) == 0){
+		            if(days[currentDay]=="Sunday"){
 		                sundays++;
 		            }
 		        }
