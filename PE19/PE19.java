@@ -14,7 +14,8 @@ How many Sundays fell on the first of the month during the twentieth century (1 
 
 
 
-After coding results, the code "as-is", actually gets us the correct Answer(171) + 1, because we do not account for the extra day in february thanks to the leap year.
+After coding results, the code "as-is", actually gets us the correct Answer(171) + 1, 
+because we do not account for the extra day in february thanks to the leap year.
 *******************************************************************************/
 public class PE19
 {
